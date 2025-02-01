@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment</title>
+    <style>
+        table{
+            background-color: black;
+        }
+        tr{
+            background-color: #00f1dd;
+        }
+        td{
+            background-color:#00f1dd;
+            text-align: center;
+        }
+    </style>
+    <script src="/script.js"></script>
+</head>
+<body style="background-color: #00f18d;">
+    <h1><b><center>Enrolled Students</center></b></h1>
+    <table align="center" border="2">
+        <tr align="center">
+            <th width="100">Id</th>
+            <th width="150">Name</th>
+            <th width="150">EmailId</th>
+            <th width="140">CourseName</th>
+        </tr>
+        <tbody id="enrollTableBody">
+            
+        </tbody>
+    </table>
+    <script>
+        window.onload = () => {
+            showEnrolled();
+        }
+    </script>
+</body>
+</html>
